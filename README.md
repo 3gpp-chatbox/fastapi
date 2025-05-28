@@ -92,7 +92,7 @@ Deletes all graphs for a specific procedure and entity combination. The endpoint
 ### Prerequisites
 
 - PostgreSQL database (version 17 or higher)
-- **uv:** A fast Python package manager and project tool written in Rust. For complete details, refer to the [official uv documentation](https://docs.uv.com).
+- **uv:** A fast Python package manager and project tool written in Rust. For complete details, refer to the [official uv documentation](https://docs.astral.sh/uv/).
 
 ### Setup
 
