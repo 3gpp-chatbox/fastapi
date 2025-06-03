@@ -75,7 +75,7 @@ async def insert_edited_graph(
             status = "verified"
 
             # Serialize edited graph to JSON string
-            edited_graph_json = request.edited_graph.model_dump_json()
+            edited_graph_json = request.edited_graph.model_dump_json(by_alias=True)
 
             insert_query = """
             INSERT INTO graph (
